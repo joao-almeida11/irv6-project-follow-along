@@ -1,4 +1,4 @@
-import TeacherClientPage from "./TeacherClientPage";
+import TeacherClientPage from "./clientPage";
 import fetchNotes from "./fetchNotes";
 
 export default async function teacherView() {
