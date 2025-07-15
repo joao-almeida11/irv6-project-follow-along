@@ -17,7 +17,7 @@ export default function Score({
         <img src={isPending ? loadingUrl : homeImage} alt="Home team logo" />
       </div>
       <div>
-        <h2>{isPending ? "AWAY" : <awayName></awayName>}</h2>
+        <h2>{isPending ? "AWAY" : awayName}</h2>
         <h3>{isPending ? "-" : away}</h3>
         <img src={isPending ? loadingUrl : awayImage} alt="away team logo" />
       </div>
